@@ -1,16 +1,29 @@
-
-nav {
-  font-weight: 500;
-  font-style: Medium;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 2%;
+.nav-link {
+  display: block;
+  font-weight: 500; 
+  line-height: 1.5; 
+  letter-spacing: 0.02em; 
+  color: #2e2f42; 
 }
-address {
-  color: #434455;
-  font-weight: 400;
-  font-style: Regular;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 2%;
+
+
+.contacts {
+  font-style: normal; /* Обов'язково! Скасовує браузерний курсив для тегу address */
+}
+
+.contacts-link {
+  display: block;
+  color: #434455; 
+  line-height: 1.5; 
+  letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
 }

@@ -1,27 +1,30 @@
-#hero {
-  color: #ffffff;
+.hero {
   background-color: #2e2f42;
 }
 
 .hero-title {
-  font-family: Roboto;
+  color: #ffffff;
   font-weight: 700;
-  font-style: Bold;
   font-size: 56px;
-  line-height: 60px;
-  letter-spacing: 2%;
+  line-height: 1.07; /* Переведено в безрозмірний множник */
+  letter-spacing: 0.02em; /* Переведено з 2% в em */
   text-align: center;
 }
 
 .hero-button {
+  display: block; 
+  margin: 0 auto;
   color: #ffffff;
   background-color: #4d5ae5;
-  font-family: Roboto;
   font-weight: 500;
-  font-style: Medium;
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 4%;
-  vertical-align: middle;
+  line-height: 1.5; 
+  letter-spacing: 0.04em; 
   cursor: pointer;
+}
+
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf; 
 }

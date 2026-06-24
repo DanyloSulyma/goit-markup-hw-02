@@ -1,30 +1,45 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: #2e2f42;
+  color: #434455;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   background-color: #ffffff;
 }
 
 ul,
 ol {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 a {
   text-decoration: none;
-  color: currentColor;
 }
 
-span {
-    color : #4D5AE5;
+button {
+  cursor: pointer;
 }
 
 .logo {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  font-style: Bold;
   font-size: 18px;
-  line-height: 24px;
-  letter-spacing: 3%;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
+.header-logo {
+  color: #2e2f42;
+}
+
+.footer-logo {
+  color: #f4f4fd;
+}
+
+.logo-accent {
+  color: #4d5ae5;
+}
